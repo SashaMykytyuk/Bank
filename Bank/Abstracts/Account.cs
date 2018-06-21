@@ -12,7 +12,7 @@ namespace Bank
         public int Pin { set; get; }
         public Guid Id { set; get; }
         public virtual decimal Balance { set; get; }
-        public Account(int _NumberAccount, int _Pin, Guid _Id, decimal _Balance)
+        public Account(Guid _Id, int _NumberAccount = 0, int _Pin = 0, decimal _Balance = 0.0m)
         {
             NumberAccount = _NumberAccount;
             Pin = _Pin;

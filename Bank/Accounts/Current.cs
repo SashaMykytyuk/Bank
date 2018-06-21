@@ -1,4 +1,4 @@
-﻿using Bank.Abstracts;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace Bank
     class Current : Account
     {
         public override decimal Balance { set; get; }
-        public Current(int _NumberAccount, int _Pin, Guid _Id, decimal _Balance) : base(_NumberAccount, _Pin, _Id, _Balance)
+        public Current(Guid _Id, int _NumberAccount = 0, decimal _Balance = 0.0m, int _Pin = 0) : base(_Id, _NumberAccount, _Pin, _Balance)
         {
             Balance = 0;
         }

@@ -47,10 +47,12 @@
     <Compile Include="Abstracts\ABSBank.cs" />
     <Compile Include="Abstracts\Client.cs" />
     <Compile Include="Abstracts\ClientComparer.cs" />
+    <Compile Include="AccountFactory.cs" />
     <Compile Include="Accounts\Deposit.cs" />
     <Compile Include="Accounts\Credit.cs" />
     <Compile Include="Accounts\Current.cs" />
     <Compile Include="Banks\Privat.cs" />
+    <Compile Include="ClientFactory.cs" />
     <Compile Include="Clients\RetiredClient.cs" />
     <Compile Include="Clients\StudentClient.cs" />
     <Compile Include="Clients\UsualClient.cs" />
