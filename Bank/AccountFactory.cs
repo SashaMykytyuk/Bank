@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    class AccountFactory
+    public class AccountFactory
     {
         public Account GetAccount(string name)
         {

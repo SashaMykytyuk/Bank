@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    abstract class ABSBank
+    public abstract class ABSBank
     {
         public string Name { set; get; }
         public ICollection<Client> clients { set; get; }
@@ -107,7 +107,9 @@ namespace Bank
 //clientsToRemove) - returns actual removed clients
 //d) ICollection<Account> GetAccountsByClient(Client client) - returns
 //all client’s accounts
-//Тестування ПЗ
+
+    
+    //Тестування ПЗ
 
 
 //e) ICollection<Account> AddAccountsToClient(Client client,

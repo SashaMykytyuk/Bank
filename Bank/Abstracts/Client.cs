@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    abstract class Client
+    public abstract class Client
     {
         public string FirstName { set; get; }
         public string LastName { set; get; }

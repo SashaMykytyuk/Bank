@@ -7,7 +7,7 @@ using Bank;
 
 namespace Bank
 {
-    class Privat : ABSBank
+    public class Privat : ABSBank
     {
         public Privat(string _name) : base(_name)
         {

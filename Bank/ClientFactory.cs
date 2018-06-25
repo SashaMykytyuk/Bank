@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-    class ClientFactory
+    public class ClientFactory
     {
         public Client GetClient(string name)
         {
